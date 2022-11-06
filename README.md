@@ -38,6 +38,7 @@ To run via local environment:
     - handlebars `npm i express-handlebars`
     - mysql2 `npm i mysql2`
     - sequelize `npm i sequelize`
+    - connect session `npm i connect-session-sequelize`
     
     Continue in command line:
     - `mysql -u root -p` 
@@ -45,7 +46,6 @@ To run via local environment:
 
     Once mysql is running 
     - `source db/schema.sql;` 
-    - `source db/seeds.sql;` 
     
     proceed to quit 
     - `quit;`
@@ -54,8 +54,8 @@ To run via local environment:
 
 ## Credits
 
-Collab/debug: Shawn Tschoepe Github: https://github.com/shawn220a
-Collab: Jeffery Littleton Github: Github: https://github.com/littletonjeffrey
+Collab: Gloriana Gonzalez Github: https://github.com/ggggglo
+Debug: Shawn Tschoepe Github: https://github.com/shawn220a
 
 ## License
 
