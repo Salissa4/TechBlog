@@ -1,7 +1,6 @@
 const router = require('express').Router();
 const { User, Post, Comment } = require('../../models');
 
-// get all users
 router.get('/', (req, res) => {
     User.findAll({
             attributes: {
@@ -15,7 +14,6 @@ router.get('/', (req, res) => {
         });
 });
 
-// get user by ID
 router.get('/:id', (req, res) => {
     User.findOne({
             attributes: {
@@ -53,7 +51,7 @@ router.get('/:id', (req, res) => {
         });
 });
 
-// create an user
+//create post
 router.post('/', (req, res) => {
     User.create({
             username: req.body.username,
@@ -72,9 +70,8 @@ router.post('/', (req, res) => {
             console.log(err);
             res.status(500).json(err);
         });
-});
+})
 
-// login user 
 router.post('/login', (req, res) => {
     User.findOne({
             where: {
@@ -122,7 +119,6 @@ router.post('/login', (req, res) => {
         });
 });
 
-// destroy session and log out user
 router.post('/logout', (req, res) => {
     if (req.session.loggedIn) {
         req.session.destroy(() => {
@@ -131,6 +127,7 @@ router.post('/logout', (req, res) => {
     } else {
         res.status(404).end();
     }
+
 });
 
 module.exports = router;
