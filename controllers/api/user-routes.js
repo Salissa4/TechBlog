@@ -1,5 +1,9 @@
 const router = require('express').Router();
-const { User, Post, Comment } = require('../../models');
+const {
+    User,
+    Post,
+    Comment
+} = require('../../models');
 
 router.get('/', (req, res) => {
     User.findAll({
@@ -51,7 +55,6 @@ router.get('/:id', (req, res) => {
         });
 });
 
-//create post
 router.post('/', (req, res) => {
     User.create({
             username: req.body.username,

@@ -4,22 +4,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tech Blog</title>
+    <title>The Tech Blog</title>
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://use.typekit.net/vvd5fjm.css">
 </head>
 
 <body>
     <div class="wrapper">
         <header>
             <h1>
-                <a href="/">HOME</a>
+                <a href="/">home</a>
             </h1>
             <nav>
                 {{#if loggedIn}}
                 <a href="/dashboard">dashboard</a>
-                <button id="logout" class="btn-no-style logout">LOGOUT</button>
+                <button id="logout" class="btn-no-style logout">logout</button>
                 {{else}}
-                <a href="/login">LOGIN</a>
+                <a href="/login">login</a>
                 {{/if}}
             </nav>
         </header>
