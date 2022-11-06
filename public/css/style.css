@@ -1,8 +1,8 @@
 * {
-    font-family: ocr-a-std,monospace;
+    font-family: monospace;
     font-weight: 400;
-    font-style: normal;
-    color: #f7ae02f3;
+    font-style:normal;
+    color: #cb940a;
 }
 
 body,
@@ -14,13 +14,13 @@ html {
 
 main,
 .site-name {
-    background-color: #a7a7a7;
+    background-color: #cdcbcb;
 }
 
 a,
 .btn-no-style,
 #comment-subtitle {
-    color: #f3ab1d;
+    color: cb940a;
 }
 
 a:hover,
@@ -35,7 +35,7 @@ a {
 }
 
 button {
-    background-color: #f3ab1d;
+    background-color: #cb940a;
     border: 0;
     padding: 1%;
     color: white;
@@ -43,6 +43,7 @@ button {
     transition: background-color .1s;
     cursor: pointer;
     border-radius: 5px;
+    font-size: 20px;
 }
 
 button:hover {
@@ -83,6 +84,7 @@ form>div {
 
 form label {
     display: block;
+    font-size: 20px;
 }
 
 /* .wrapper {
@@ -251,7 +253,7 @@ main {
 
 .form-heading h1,
 .form-heading h2 {
-    color: #f3ab1d;
+    color: #cb940a;
 }
 
 .login-form,
