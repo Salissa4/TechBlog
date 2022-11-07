@@ -50,7 +50,9 @@ To run via local environment:
     proceed to quit 
     - `quit;`
 
-5.  Finally type `node server.js`
+5.  `node seeds/index.js`
+6.  `node server.js`
+7.  Open localhost:3001
 
 ## Credits
 
