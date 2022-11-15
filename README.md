@@ -50,8 +50,8 @@ To run via local environment:
     proceed to quit 
     - `quit;`
 
-5.  `node server.js`
-6.  Open localhost:3001
+5. `node server.js`
+6. Open localhost:3001
 
 ## Credits
 
