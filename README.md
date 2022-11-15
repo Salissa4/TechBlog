@@ -17,7 +17,7 @@ Build a CMS-style blog site developers will be able to publish their posts and c
 
 Live on [Heroku](https://ancient-woodland-75045.herokuapp.com/) 
 
-![TechBlog](/assets/demo.png)
+![TechBlog](./public/images/demo.png)
 
 ## Installation
 
