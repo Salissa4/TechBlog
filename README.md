@@ -26,19 +26,7 @@ To run via local environment:
 
 2.  Open terminal, and navigate to the appropriate directory
 
-3.  From command line: 
-    - `npm init` 
-    - `npm install` 
-
-    Install the following dependencies: 
-    - bcrypt `npm i bcrypt`
-    - dotenv `npm i dotenv`
-    - express `npm i express`
-    - session `npm i express-session`
-    - handlebars `npm i express-handlebars`
-    - mysql2 `npm i mysql2`
-    - sequelize `npm i sequelize`
-    - connect session `npm i connect-session-sequelize`
+3.  Install dependencies in package.json
     
     Continue in command line:
     - `mysql -u root -p` 
