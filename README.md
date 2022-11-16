@@ -15,7 +15,7 @@ Build a CMS-style blog site developers will be able to publish their posts and c
 
 ## Usage
 
-Live on [Heroku](https://ancient-woodland-75045.herokuapp.com/) 
+Live on [Heroku](https://desolate-castle-99286.herokuapp.com/) 
 
 ![TechBlog](./public/images/demo.png)
 
